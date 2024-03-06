@@ -1,6 +1,14 @@
+
+
 # PATRONES de DISEÑO
 
 Los patrones de diseño (design patterns) son soluciones habituales a problemas comunes en el diseño de software. Cada patrón es como un plano que se puede personalizar para resolver un problema de diseño particular de tu código.
+
+Llamamos 'patrón de diseño' a ciertas soluciones más o menos estandarizadas a problemas recurrentes que sufren los programadores, y que además te permiten ahorrar tiempo al comunicarte con tus compañeros de equipo, al dotaros de un lenguaje común: puedes hablar con ellos de implementar una 'abstract factory' sin necesidad de andar explicando el esquema de funcionamiento del mismo.
+
+Es importante aclarar que un 'patrón de diseño' no es lo mismo que un 'snippet', no se trata de una porción reusable de código ajeno que podamos limitarnos a copiar y pegar en el nuestro propio, sino de un concepto general que resuelve —previa adaptación a nuestro programa— un problema concreto.
+
+Podemos estar programando durante años sin conocer un sólo patrón (lo cual no impedirá que en algún momento lo implementemos sin ser conscientes de ello), pero siempre resultará interesante aprender sobre ellos para saber cómo hacer frente a los problemas que vayamos encontrando. 
 
 ## Ventajas de los patrones
 
