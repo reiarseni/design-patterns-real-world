@@ -29,6 +29,7 @@ Todas las implementaciones del patrón Singleton tienen estos dos pasos en comú
 
 + Hacer privado el constructor por defecto para evitar que otros objetos utilicen el operador new con la clase Singleton.
 + Crear un método de creación estático que actúe como constructor. Tras bambalinas, este método invoca al constructor privado para crear un objeto y lo guarda en un campo estático. Las siguientes llamadas a este método devuelven el objeto almacenado en caché.
+
 Si tu código tiene acceso a la clase Singleton, podrá invocar su método estático. De esta manera, cada vez que se invoque este método, siempre se devolverá el mismo objeto.
 
 ## Analogía en el mundo real
