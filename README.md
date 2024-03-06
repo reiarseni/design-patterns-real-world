@@ -45,7 +45,7 @@ Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad 
 
 **Factory Method**: tiene como objetivo presentar un método abstracto para la creación de un objeto reportando a las subclases concretas la creación efectiva.
 
-**Prototype**: permite crear nuevos objetos por duplicación de objetos existentes llamados prototipos que disponen de la capacidad de clonación.
+**[Prototype](Prototype.md)**: permite crear nuevos objetos por duplicación de objetos existentes llamados prototipos que disponen de la capacidad de clonación.
 
 **[Singleton](Singleton.md)**: permite asegurar que de una clase concreta existe una única instancia y proporciona un método único que la devuelve.
 
