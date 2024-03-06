@@ -39,7 +39,7 @@ Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad 
 
 **Prototype**: permite crear nuevos objetos por duplicación de objetos existentes llamados prototipos que disponen de la capacidad de clonación.
 
-**Singleton**: permite asegurar que de una clase concreta existe una única instancia y proporciona un método único que la devuelve.
+**[Singleton](Singleton.md)**: permite asegurar que de una clase concreta existe una única instancia y proporciona un método único que la devuelve.
 
 
 ## Patrones Estructurales 
