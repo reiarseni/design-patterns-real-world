@@ -44,17 +44,18 @@ Cuando viajas de Europa a Estados Unidos por primera vez, puede ser que te lleve
 
 ## Cómo implementarlo
 1. Asegúrate de que tienes al menos dos clases con interfaces incompatibles:
-  +Una útil clase servicio que no puedes cambiar (a menudo de un tercero, heredada o con muchas dependencias existentes).
-  +Una o varias clases cliente que se beneficiarían de contar con una clase de servicio.
-2. Declara la interfaz con el cliente y describe el modo en que las clases cliente se comunican con la clase de servicio.
+   + Una útil clase servicio que no puedes cambiar (a menudo de un tercero, heredada o con muchas dependencias existentes).
+   + Una o varias clases cliente que se beneficiarían de contar con una clase de servicio.
+   
+3. Declara la interfaz con el cliente y describe el modo en que las clases cliente se comunican con la clase de servicio.
 
-3. Crea la clase adaptadora y haz que siga la interfaz con el cliente. Deja todos los métodos vacíos por ahora.
+4. Crea la clase adaptadora y haz que siga la interfaz con el cliente. Deja todos los métodos vacíos por ahora.
 
-4. Añade un campo a la clase adaptadora para almacenar una referencia al objeto de servicio. La práctica común es inicializar este campo a través del constructor, pero en ocasiones es adecuado pasarlo al adaptador cuando se invocan sus métodos.
+5. Añade un campo a la clase adaptadora para almacenar una referencia al objeto de servicio. La práctica común es inicializar este campo a través del constructor, pero en ocasiones es adecuado pasarlo al adaptador cuando se invocan sus métodos.
 
-5. Uno por uno, implementa todos los métodos de la interfaz con el cliente en la clase adaptadora. La clase adaptadora deberá delegar la mayor parte del trabajo real al objeto de servicio, gestionando tan solo la interfaz o la conversión de formato de los datos.
+6. Uno por uno, implementa todos los métodos de la interfaz con el cliente en la clase adaptadora. La clase adaptadora deberá delegar la mayor parte del trabajo real al objeto de servicio, gestionando tan solo la interfaz o la conversión de formato de los datos.
 
-6. Las clases cliente deberán utilizar la clase adaptadora a través de la interfaz con el cliente. Esto te permitirá cambiar o extender las clases adaptadoras sin afectar al código cliente.
+7. Las clases cliente deberán utilizar la clase adaptadora a través de la interfaz con el cliente. Esto te permitirá cambiar o extender las clases adaptadoras sin afectar al código cliente.
 
 ## Ejemplo del Mundo Real
 
