@@ -53,7 +53,7 @@ Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad 
 ## Patrones Estructurales 
 Explican cómo ensamblar objetos y clases en estructuras más grandes a la vez que se mantiene la flexibilidad y eficiencia de la estructura.
 
-**Adapter**: tiene como objetivo convertir la interfaz de una clase existente en la interfaz esperada por los clientes también existentes para que puedan trabajar de forma conjunta.
+**[Adapter](Adapter.md)**: tiene como objetivo convertir la interfaz de una clase existente en la interfaz esperada por los clientes también existentes para que puedan trabajar de forma conjunta.
 
 **Bridge**: tiene como objetivo separar los aspectos conceptuales de una jerarquía de clases de su implementación.
 
