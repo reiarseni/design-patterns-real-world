@@ -91,3 +91,6 @@ Se encargan de una comunicación efectiva y la asignación de responsabilidades 
 **Template Method**: permite reportar en las subclases ciertas etapas de una de las operaciones de un objeto, estando estas descritas en las subclases.
 
 **Visitor**: construye una operación a realizar en los elementos de un conjunto de objetos. Es posible agregar nuevas operaciones sin modificar las clases de estos objetos.
+
+**Referencias:**
+- [https://refactoring.guru/es/design-patterns](https://refactoring.guru/es/design-patterns)
