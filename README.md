@@ -41,19 +41,19 @@ Proporcionan mecanismos de creación de objetos que incrementan la flexibilidad 
 
 **Abstract Factory**: tiene como objetivo la creación de objetos agrupados en familias sin tener que conocer las clases concretas destinadas a la creación de estos objetos.
 
-**[Builder](Builder.md)**: permite separar la construcción de objetos complejos de su implementación de modo que un cliente pueda crear estos objetos complejos con implementaciones diferentes.
+**[Builder](1-Creacionales/Builder.md)**: permite separar la construcción de objetos complejos de su implementación de modo que un cliente pueda crear estos objetos complejos con implementaciones diferentes.
 
 **Factory Method**: tiene como objetivo presentar un método abstracto para la creación de un objeto reportando a las subclases concretas la creación efectiva.
 
-**[Prototype](Prototype.md)**: permite crear nuevos objetos por duplicación de objetos existentes llamados prototipos que disponen de la capacidad de clonación.
+**[Prototype](1-Creacionales/Prototype.md)**: permite crear nuevos objetos por duplicación de objetos existentes llamados prototipos que disponen de la capacidad de clonación.
 
-**[Singleton](Singleton.md)**: permite asegurar que de una clase concreta existe una única instancia y proporciona un método único que la devuelve.
+**[Singleton](1-Creacionales/Singleton.md)**: permite asegurar que de una clase concreta existe una única instancia y proporciona un método único que la devuelve.
 
 
 ## Patrones Estructurales 
 Explican cómo ensamblar objetos y clases en estructuras más grandes a la vez que se mantiene la flexibilidad y eficiencia de la estructura.
 
-**[Adapter](Adapter.md)**: tiene como objetivo convertir la interfaz de una clase existente en la interfaz esperada por los clientes también existentes para que puedan trabajar de forma conjunta.
+**[Adapter](2-Estructurales/Adapter.md)**: tiene como objetivo convertir la interfaz de una clase existente en la interfaz esperada por los clientes también existentes para que puedan trabajar de forma conjunta.
 
 **Bridge**: tiene como objetivo separar los aspectos conceptuales de una jerarquía de clases de su implementación.
 
